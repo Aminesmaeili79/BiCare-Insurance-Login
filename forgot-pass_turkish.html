@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Login - CreditWestSigorta</title>
+		<title>Register</title>
 
 		<link rel="stylesheet" href="./styles/style.css" />
 	</head>
@@ -13,7 +13,7 @@
 				<a href="https://www.bicareinsurance.com/" target="_blank"
 					><img src="./images/bicare.jpeg" alt="bicare-logo"
 				/></a>
-				<h1>Quick Pay</h1>
+				<h1>Hızlı Ödeme</h1>
 				<div class="quick-pay__policy-number">
 					<?xml version="1.0" encoding="UTF-8"?><svg
 						width="24px"
@@ -39,7 +39,7 @@
 							stroke-linejoin="round"
 						></path>
 					</svg>
-					<a href="">Pay&nbsp;with&nbsp;policy&nbsp;number</a>
+					<a href="">Poliçe&nbsp;numarası&nbsp;ile&nbsp;öde.</a>
 				</div>
 				<div class="quick-pay__license-plate">
 					<?xml version="1.0" encoding="UTF-8"?><svg
@@ -66,7 +66,7 @@
 							stroke-linejoin="round"
 						></path>
 					</svg>
-					<a href="">Pay&nbsp;with&nbsp;license&nbsp;plate</a>
+					<a href="">Plaka&nbsp;ile&nbsp;ödeme.</a>
 				</div>
 			</div>
 			<div class="login-credentials">
@@ -81,7 +81,7 @@
 								d="M583.334 400l180.901 58.779-111.804-153.885v190.212l111.804-153.885z"
 							/>
 						</svg>
-						<a href="./index_turkish.html">TR</a>
+						<span>TR</span>
 					</div>
 					<div class="language__en">
 						<?xml version="1.0" encoding="utf-8"?><svg
@@ -159,23 +159,149 @@
 								/>
 							</g>
 						</svg>
-						<span>EN</span>
+						<a href="./forgot-pass.html">EN</a>
 					</div>
 				</div>
+				<div class="action-description">
+					Formu doldurup tamam tuşuna bastığınız zaman müşteri numaranız ve
+					şifreniz cep telefonunuza kısa mesaj olarak gönderilecek.
+				</div>
 				<form action="" class="login-credentials__form">
-					<h2>Login</h2>
+					<div class="dropdown">
+						<div class="select">
+							<span class="selected">Müşteri tipi</span>
+							<div class="caret"></div>
+						</div>
+						<ul class="menu">
+							<li class="active">Bireysel</li>
+							<li>Kurumsal</li>
+						</ul>
+					</div>
+					<div class="dropdown">
+						<div class="select">
+							<span class="selected">Ülke</span>
+							<div class="caret"></div>
+						</div>
+						<ul class="menu">
+							<li class="active">Kuzey Kıbrıs Türk Cumhuriyeti</li>
+							<li>Andorra</li>
+							<li>Arjantin</li>
+							<li>Avustralya</li>
+							<li>Avusturya</li>
+							<li>Azerbaycan-Nahçıvan</li>
+							<li>Bangladeş</li>
+							<li>Beyaz Rusya</li>
+							<li>Belçika</li>
+							<li>Britanya Hint Okyanusu Toprakları</li>
+							<li>Britanya Virjin Adaları</li>
+							<li>Bulgaristan</li>
+							<li>Kamerun</li>
+							<li>Kanada</li>
+							<li>Kongo</li>
+							<li>Çek Cumhuriyeti</li>
+							<li>Danimarka</li>
+							<li>Mısır</li>
+							<li>Estonya</li>
+							<li>Finlandiya</li>
+							<li>Fransa</li>
+							<li>Gambiya</li>
+							<li>Gürcistan</li>
+							<li>Almanya</li>
+							<li>Yunanistan</li>
+							<li>Macaristan</li>
+							<li>İzlanda</li>
+							<li>Hindistan</li>
+							<li>İran</li>
+							<li>Irak</li>
+							<li>İrlanda</li>
+							<li>İsrail</li>
+							<li>İtalya</li>
+							<li>Ürdün</li>
+							<li>Kazakistan</li>
+							<li>Kuveyt</li>
+							<li>Kırgızistan</li>
+							<li>Letonya</li>
+							<li>Lübnan</li>
+							<li>Libya</li>
+							<li>Litvanya</li>
+							<li>Lüksemburg</li>
+							<li>Malta</li>
+							<li>Moldova</li>
+							<li>Fas</li>
+							<li>Hollanda</li>
+							<li>Nijer</li>
+							<li>Nijerya</li>
+							<li>Norveç</li>
+							<li>Umman</li>
+							<li>Pakistan</li>
+							<li>Filistin</li>
+							<li>Çin Halk Cumhuriyeti</li>
+							<li>Filipinler</li>
+							<li>Polonya</li>
+							<li>Portekiz</li>
+							<li>Kıbrıs Cumhuriyeti</li>
+							<li>Güney Kore Cumhuriyeti</li>
+							<li>Güney Afrika Cumhuriyeti</li>
+							<li>Romanya</li>
+							<li>Rusya Federasyonu</li>
+							<li>Suudi Arabistan</li>
+							<li>Sırbistan</li>
+							<li>Slovakya</li>
+							<li>Slovenya</li>
+							<li>İspanya</li>
+							<li>Sudan</li>
+							<li>İsveç</li>
+							<li>İsviçre</li>
+							<li>Suriye</li>
+							<li>Tacikistan</li>
+							<li>Türkiye</li>
+							<li>Türkmenistan</li>
+							<li>ABD Virjin Adaları</li>
+							<li>Ukrayna</li>
+							<li>Birleşik Arap Emirlikleri</li>
+							<li>Birleşik Krallık</li>
+							<li>Amerika Birleşik Devletleri</li>
+							<li>Özbekistan</li>
+							<li>Yemen</li>
+							<li>Zimbabve</li>
+						</ul>
+					</div>
 					<div class="form__input-user">
-						<input type="text" placeholder="Username" />
+						<input type="text" placeholder="Kimlik Belgesi No." />
+						<p>
+							KKTC ve TC'li müşteriler kimlik numarası yazmalı, diğer uyruklu
+							müşteriler pasaport numarası.
+						</p>
 					</div>
-					<div class="form__input-pass">
-						<input type="password" placeholder="Password" />
-						<a href="./forgot-pass.html"
-							>Forgot your password&nbsp;/&nbsp;Register</a
-						>
+					<div class="form__input-user">
+						<input type="text" placeholder="548XXXXXXX" />
+						<p>
+							Cep telefonunuzun son 10 hanesine yazın. Bu numara müşteri
+							kartınızda kullandığınız numara olmalıdır
+						</p>
 					</div>
-					<button type="submit">Login</button>
+					<div class="form__button">
+						<button type="submit">Tamam</button>
+						<div class="back-to-login">
+							<?xml version="1.0" encoding="UTF-8"?><svg
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								></path>
+							</svg>
+							<a href="./index.html">Oturum açma sayfasına dön.</a>
+						</div>
+					</div>
 				</form>
 			</div>
 		</div>
+
+		<script src="./scripts/script.js"></script>
 	</body>
 </html>
